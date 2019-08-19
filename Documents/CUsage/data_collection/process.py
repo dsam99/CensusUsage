@@ -9,7 +9,7 @@ from gensim.models.phrases import Phrases, Phraser
 from gensim.models.word2vec import Text8Corpus
 
 import string
-import regex as re
+import regex
 import pickle
 
 # retrieving stopwords to remove from data analysis
