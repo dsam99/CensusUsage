@@ -1,7 +1,7 @@
 import pickle
 import numpy as np
 
-result_dictionary = pickle.load(open('source_files/result_dictionary.p', 'rb'))
+result_dictionary = pickle.load(open('../source_files/uris/news_urls_1/result_dictionary_1.p', 'rb'))
 
 def print_results(result_dict):
 
@@ -32,7 +32,7 @@ def errors_search():
 	@return - a quintuple containing: list of 200 responses,list of 403 errors, list of 404 errors, list of 410 errors, and a list of errors caught by try catches
 	'''
 
-	with open('source_files/error_urls.txt', 'rb') as f:
+	with open('../source_files/uris/news_urls_1/error_urls_1.txt', 'rb') as f:
 		error_urls = f.readlines()
 
 	#filtering out newline characters

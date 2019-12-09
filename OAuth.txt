@@ -1,4 +1,0 @@
-your-consumer-key
-your-consumer-secret
-your-access-token
-your-access-secret 
